@@ -1,9 +1,25 @@
-package aplicacion; 
+package aplicacion;
 
-import mates.Matematicas; 
-
+/**
+ * Clase principal que contiene el método main para iniciar la aplicación.
+ */
 public class Principal {
-	public static void main(String[] args) {
-		System.out.println("El número PI es " + Matematicas.generarNumeroPiRecursivo(Integer.parseInt(args[0])));
-	}
+
+    /**
+     * Constructor por defecto de la clase Principal.
+     * No se requiere inicialización especial en este caso.
+     */
+    public Principal() {
+        // No se requiere inicialización especial en este caso.
+    }
+
+    /**
+     * Método principal que inicia la aplicación.
+     *
+     * @param args Argumentos de la línea de comandos (no se utilizan en este ejemplo).
+     */
+    public static void main(String[] args) {
+        // Implementación del método main
+    }
 }
+
