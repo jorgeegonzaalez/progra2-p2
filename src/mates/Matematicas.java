@@ -8,6 +8,14 @@ import java.util.Random;
 public class Matematicas {
 
     /**
+     * Constructor por defecto de la clase Matematicas.
+     * No se requiere inicialización especial en este caso.
+     */
+    public Matematicas() {
+        // No se requiere inicialización especial en este caso.
+    }
+
+    /**
      * Genera una aproximación al número Pi mediante el método de Montecarlo de forma recursiva.
      * El parámetro `pasos` indica el número de puntos generados.
      *
