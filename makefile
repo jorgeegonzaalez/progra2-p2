@@ -10,6 +10,6 @@ compilar: limpiar
 	find . -name *.java | xargs javac -cp bin -d bin 
 
 jar: compilar 
-	jar cvfm $(fichJar) manifest -C bin . m
+	jar cvfm $(fichJar) manifest -C bin . 
 javadoc:compilar
-	find src -type f -name "*.java" | xargs javadoc -d html -encoding utf-8 -doencoding utg-8
+	find src -type f -name "*.java" | xargs javadoc -d html -encoding utf-8 -doencoding utf-8 -charset utf-8
