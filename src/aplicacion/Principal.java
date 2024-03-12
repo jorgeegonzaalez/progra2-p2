@@ -1,25 +1,25 @@
-package aplicacion;
+package aplicacion; 
+
+import mates.Matematicas;
 
 /**
- * Clase principal que contiene el método main para iniciar la aplicación.
+ * Esta clase contiene el programa principal.
  */
 public class Principal {
 
-    /**
-     * Constructor por defecto de la clase Principal.
-     * No se requiere inicialización especial en este caso.
-     */
-    public Principal() {
-        // No se requiere inicialización especial en este caso.
-    }
+	/**
+	 * Método que se ejecuta al iniciar el programa, que recibe el número de pasos de la línea de comandos.
+	 *
+	 * @param args Se espera un único argumento, el número de pasos.
+	 */
+	public static void main(String[] args) {
+		if (args.length != 1) {
+			System.out.println("Uso: java Principal <numero_de_pasos>");
+			System.exit(1);
+		}
 
-    /**
-     * Método principal que inicia la aplicación.
-     *
-     * @param args Argumentos de la línea de comandos (no se utilizan en este ejemplo).
-     */
-    public static void main(String[] args) {
-        // Implementación del método main
-    }
+		long pasos = Long.parseLong(args[0]);
+
+		System.out.println("El número Pi es " + Matematicas.generarNumeroPiRecursivo(pasos));
+	}
 }
-

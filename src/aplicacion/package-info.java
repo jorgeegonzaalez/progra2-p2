@@ -1,4 +1,5 @@
 /**
-* La clase Aplicación contiene el código para interactuar con la clase matemáticas, es la interfaz de usuario que permite manejar la funcionalidad del programa.*/
+ * Contienen el programa para interactuar con la aplicación y contiene la interfaz de usuario para utilizar las funcionalidades de la clase Matematicas.
+ */
+package aplicacion; 
 
-package aplicacion;
