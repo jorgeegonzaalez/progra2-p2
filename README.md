@@ -34,14 +34,6 @@ Cree un **archivo ejecutable JAR** para facilitar así la ejecución del program
  
      make jar
  
-### 5. Cree el javadoc
-Si desea generar un documento Javadoc para el código, puedes hacerlo con el siguiente comando:
- 
- 
-    make javadoc
- 
-Esto **generará archivos de documentación** en el directorio html/.
- 
 ## Manual de Uso
  
 A continuación se indican y describen las distintas funcionalidades que puede realizar el programa.
